@@ -2,7 +2,8 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
     // Development mein localhost, production mein backend URL
-    baseURL: 'http://localhost:5000/api', 
+    // baseURL: 'http://localhost:5000/api', 
+    baseURL: 'https://surjeetbackend-6iif.onrender.com/api', 
 });
 
 // Request Interceptor

@@ -7,7 +7,8 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../components/shared/Button";
 
 // Single socket instance outside component
-const socket = io("http://localhost:5000");
+// const socket = io("http://localhost:5000");
+const socket = io("https://surjeetbackend-6iif.onrender.com");
 
 const DoctorDashboard = () => {
   const { user, logout } = useAuthStore();

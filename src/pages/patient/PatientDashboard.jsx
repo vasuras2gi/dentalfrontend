@@ -7,7 +7,8 @@ import useAuthStore from '../../store/useAuthStore';
 import Button from '../../components/shared/Button';
 
 // Global socket instance
-const socket = io('http://localhost:5000');
+// const socket = io('http://localhost:5000');
+const socket = io('https://surjeetbackend-6iif.onrender.com');
 
 const PatientDashboard = () => {
   const { user, logout } = useAuthStore();
