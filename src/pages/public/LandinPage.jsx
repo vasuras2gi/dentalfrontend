@@ -12,6 +12,7 @@ import img7 from '../../assets/img7.jpg';
 import img8 from '../../assets/img8.jpg';
 import img9 from '../../assets/img9.jpg';
 import logo from '../../assets/logosurjeet.png';
+import layer from '../../assets/layer.png';
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -287,6 +288,9 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      <div>
+        <img src={layer} alt="Layer" className="w-full h-full object-cover"/>
+      </div>
 
       {/* Modern CTA Footer */}
       <footer className="bg-slate-900 text-white pt-20 pb-10 relative overflow-hidden">
