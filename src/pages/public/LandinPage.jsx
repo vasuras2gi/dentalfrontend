@@ -289,7 +289,7 @@ const LandingPage = () => {
         </div>
       </section>
       <div>
-        <img src={layer} alt="Layer" className="w-full h-full object-cover"/>
+        <img src={layer} alt="Layer" className="w-full h-3/4 object-cover"/>
       </div>
 
       {/* Modern CTA Footer */}
